@@ -10,12 +10,10 @@ It is hardcoded to look get the schedule of and find meeting times with our team
 Nicholas Norman, and the logged in user (as long as they are within the UMass Pres Office system).
 
 The application can be run by inputting "node . --op [mode]" into the terminal.
-Current valid modes are: "getFreeBusy" and "findMeetingTimes", e.g. "node. --op getFreeBusy".
+Current valid modes are: "getFreeBusy", "findMeetingTimes", and "createMeeting". e.g. "node. --op getFreeBusy".
 
 The attached body is within the fetch.js file and contains the free/busy body currently, 
 needs to be commented out and the other body commented in to do a findMeetingTimes request.
-
-We currently receive 400, 401, and 403 errors depending on changes we have made but are unsure what is invalid.
 
 Relevant documention:
 https://learn.microsoft.com/en-us/graph/outlook-get-free-busy-schedule
